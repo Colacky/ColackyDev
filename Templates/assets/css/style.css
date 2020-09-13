@@ -1,0 +1,164 @@
+body {
+font-family: 'Press Start 2P', cursive;
+font-size: 30px;
+font-weight: 400;
+color: green;
+line-height: 30px;
+text-align: center;
+background-color: black;
+}
+
+p {
+font-family: 'Press Start 2P', cursive;
+font-size: 15px;
+font-weight: 400;
+color: green;
+line-height: 30px;
+text-align: left;
+background-color: black;
+}
+
+form {
+width: 100%;
+margin: 0 auto;
+}
+
+input[type=text] {
+width: 100%;
+outline: none;
+border: none;
+font-family: 'Press Start 2P', cursive;
+font-size: 15px;
+font-weight: 400;
+color: green;
+line-height: 30px;
+text-align: left;
+background-color: black;
+}
+
+ul {
+width: 800px;
+overflow: hidden;
+font-family: 'Press Start 2P', cursive;
+font-size: 15px;
+font-weight: 400;
+color: green;
+line-height: 30px;
+text-align: left;
+background-color: black;
+padding-left: 0;
+}
+
+.button {
+  background-color: black;
+  border: black;
+  color: green;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.container {
+  height: 900px;
+  position: relative;
+  border: black;
+}
+
+.header-top {
+  font-size: 60px;
+  height: 60px;
+  width: 1000px;
+  position: relative;
+  margin-left: 17%;
+  border: none;
+  color: green;
+  background-color: black;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.container-terminal {
+  height: 500px;
+  width: 1000px;
+  overflow: hidden;
+  position: relative;
+  border: green;
+  border-style: dashed;
+  padding: 20px;
+}
+
+.textarea {
+cursor: default;
+resize: none;
+outline: none;
+border: none;
+text-decoration:none;
+height: 100%;
+width: 100%;
+position: relative;
+font-family: 'Press Start 2P', cursive;
+font-size: 15px;
+font-weight: 400;
+color: green;
+line-height: 30px;
+text-align: left;
+background-color: black;
+}
+
+.glow {
+  color: green;
+  text-align: center;
+  padding: 20px;
+  -webkit-animation: glow 5s ease-in-out infinite alternate;
+  -moz-animation: glow 5s ease-in-out infinite alternate;
+  animation: glow 5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px black
+  }
+  to {
+    text-shadow: 0 0 15px green
+  }
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+#myProgress {
+  width: 700px;
+  background-color: black;
+}
+
+#myBar {
+  width: 0%;
+  height: 30px;
+  background-color: green;
+}
