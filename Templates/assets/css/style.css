@@ -73,7 +73,7 @@ padding-left: 0;
   height: 60px;
   width: 1000px;
   position: relative;
-  margin-left: 17%;
+  left: 15%;
   border: none;
   color: green;
   background-color: black;
@@ -96,6 +96,15 @@ padding-left: 0;
   transform: translate(-50%, -50%);
 }
 
+.bottom {
+align: center;
+margin: 0;
+position: absolute;
+top: 75%;
+left: 46%;
+
+}
+
 .container-terminal {
   height: 500px;
   width: 1000px;
@@ -107,6 +116,7 @@ padding-left: 0;
 }
 
 .textarea {
+disabled: true;
 cursor: default;
 resize: none;
 outline: none;
@@ -122,6 +132,7 @@ color: green;
 line-height: 30px;
 text-align: left;
 background-color: black;
+overflow: hidden;
 }
 
 .glow {
