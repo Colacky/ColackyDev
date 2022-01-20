@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colackyverse</title>
 
     <!-- CSS -->
@@ -9,31 +10,29 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body onload="typeText()">
-
-<div class="header-top" class="glow" class="noselect">
-    <h1 class="glow">COLACKYVERSE</h1>
-</div>
-<div class="container">
-    <div class="center">
-        <div class="container-terminal">
-            <p id="welcomeText" class="noselect"></p>
-            <div class="noselect" align="left">
-                <ul id="terminalHistory"></ul>
-                <form id="cmd" class="input" class="form">
-                    <label for="cmd"></label>
-                    <input type="text" id="cmdInput" autocomplete="off" onblur="this.focus()" autofocus >
-                </form>
+    <div class="header-top" class="glow" class="noselect">
+        <h1 class="glow">COLACKYVERSE</h1>
+    </div>
+    <div class="container">
+        <div class="center">
+            <div class="container-terminal">
+                <p id="welcomeText" class="noselect"></p>
+                <div class="noselect" align="left">
+                    <ul id="terminalHistory"></ul>
+                    <form id="cmd" class="input" class="form">
+                        <label for="cmd"></label>
+                        <input type="text" id="cmdInput" autocomplete="off" onblur="this.focus()" autofocus >
+                    </form>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
 <!-- JS -->
 <script src="assets/js/typing.js"></script>
 <script src="assets/js/jquery-3.2.1.min.js"></script>
 <script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
-<!-- <script src="assets/js/terminalHistory.js"></script> -->
-<script src="assets/js/disableEnterSubmit.js"></script>
+<script src="assets/js/scripts.js"></script>
 
 </body>
 </html>
